@@ -1,1 +1,1 @@
-# Created an itinerary with React
+Created an itinerary with React
