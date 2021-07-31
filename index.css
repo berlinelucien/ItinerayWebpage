@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  background-color: rgb(240, 233, 233);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  /* Leave this */
+
+  align-items: left;
+  justify-content: space;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Mohamud Styling (Location page) */
+.location-icon {
+  float: left;
+  left: 100px;
+  position: relative;
+  margin-top: 261px;
+}
+
+.places {
+  position: relative;
+  top: 294px;
+  left: 150px;
+  width: fit-content;
+}
+
+.location-icon-2 {
+  float: left;
+  left: 75px;
+  position: relative;
+  margin-top: 261px;
+}
+
+/* Border is not working how it's supposed to */
+.borderStyle {
+  border-bottom: 2px solid black;
+  border-top: 2px solid blueviolet;
+  position: relative;
+  margin-top: 400px;
+}
+
+.search {
+  width: 95%;
+  height: 200px;
+}
+
+.invite-header-1 {
+  position: relative;
+  top: 110px;
+  left: -200px;
+}
+
+.border-nav {
+  border: 1px solid white;
+  position: relative;
+  top: 54px;
+}
+
+.city-img {
+  width: 399px;
+  height: 200px;
+  position: relative;
+  display: inline-block;
+  top: 154px;
+  left: -74px;
+}
+
+.request-1 {
+  position: relative;
+  top: 180px;
+  left: -87px;
+}
+
+.request-2 {
+  position: relative;
+  top: 180px;
+  left: -121px;
+}
+
+.request-3 {
+  position: relative;
+  top: 180px;
+  left: -65px;
+}
+
+.request-4 {
+  position: relative;
+  top: 180px;
+  left: -239px;
+}
+
+.person {
+  color: orange;
+}
+
+.btn-custom {
+  color: #fff;
+  background-color: #2e4c80;
+  background-color: red;
+  border-color: #2e4c80;
+  border-color: yellow;
+}
+
+.invite-btn-1 {
+  position: relative;
+  top: 220px;
+  left: -119px;
+  width: 125px;
+}
+
+.invite-btn-2 {
+  position: relative;
+  top: 220px;
+  left: -39px;
+  width: 207px;
+}
+
+.friends-header-1 {
+  position: relative;
+  top: 110px;
+  left: -200px;
+}
+
+.friends-header-2 {
+  position: relative;
+  top: 110px;
+  left: -340px;
+}
+
+/* Search Bar  */
+
+body {
+  background: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+}
+
+.search {
+  width: 54%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 8px solid orange;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  width: 50px;
+  height: 46px;
+  border: 2px solid orange;
+  background: orange;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.friend-box {
+  width: 300px;
+  height: 100px;
+  border: 1px solid blue;
+  position: relative;
+  top: 300px;
+  display: inline-block;
+}
+
+.day-header {
+  position: relative;
+  top: 145px;
+}
+
+
+
